@@ -12,6 +12,9 @@ body {
 .topnav {
   overflow: hidden;
   background-color: goldenrod;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 /* Style the topnav links */
@@ -35,21 +38,22 @@ body {
   background-color: maroon;
   color: olive;
   padding: 10px;
-  height: 200px; /* Should be removed. Only for demonstration */
+  height: 400px; 
+  margin-top: 40px; /* Should be removed. Only for demonstration */
 }
 
 .content2 {
   background-color: seagreen;
   color: darkslategrey;
   padding: 10px;
-  height: 200px; /* Should be removed. Only for demonstration */
+   height: 300px; /* Should be removed. Only for demonstration */
 }
 
 .content3 {
   background-color: teal;
   color: midnightblue;
   padding: 10px;
-  height: 200px; /* Should be removed. Only for demonstration */
+  height: 400px; /* Should be removed. Only for demonstration */
 }
 
 /* Style the footer */
@@ -58,3 +62,41 @@ body {
   color: magenta;
   padding: 10px;
 }
+
+.contact {
+  text-align: center;
+}
+
+.left {
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+}
+
+.right {
+  float: right;
+  width: 50%;
+  padding: 10px;
+
+}
+
+.lion_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: auto;
+}
+
+.my_name {
+  color: olive;
+  margin-top: 50px
+}
+
+.welcome {
+  color: darkslategrey;
+  margin-top: 40px;
+}
+
+
